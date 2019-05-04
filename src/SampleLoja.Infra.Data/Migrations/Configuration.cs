@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Bogus;
 using SampleLoja.Domain.Entidades;
+using SampleLoja.Helper;
 using SampleLoja.Infra.Data.Contexto;
 
 namespace SampleLoja.Infra.Data.Migrations
@@ -27,6 +28,9 @@ namespace SampleLoja.Infra.Data.Migrations
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data. E.g.
             //Set the randomizer seed if you wish to generate repeatable data sets.
+
+            //TRUNCATE DB
+           
 
             //Set the randomizer seed if you wish to generate repeatable data sets.
             Randomizer.Seed = new Random(8675309);

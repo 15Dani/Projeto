@@ -65,7 +65,9 @@ namespace SampleLoja.Infra.Data.Contexto
                     entry.Property("DataCadastro").IsModified = false;
                 } 
             } return base.SaveChanges();
-        }   
+        }
+        
+
     }
      
 }
