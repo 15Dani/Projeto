@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SimpleInjector" Version="4.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleLoja.Apresentation\SampleLoja.Apresentation.csproj" />
+    <ProjectReference Include="..\SampleLoja.Infra.Data\SampleLoja.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
